@@ -1,0 +1,249 @@
+body{
+    font-family: 'poppins', sans-serif !important;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Primary section  */
+.primary-section h2{
+    font-size: 3.3rem;
+    font-weight: bolder;
+}
+.primary-section h2 span{
+ color: rgb(161, 37, 37);
+}
+.primary-para{
+color: black;
+font-family:Calibri,sans-serif;
+font-size: 1.2rem;
+
+}
+
+
+/* Navbar */
+.navbar{
+    position: sticky !important;
+    top: 1px !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: 16px !important;
+ 
+    display: block;
+    font-weight: 500;
+
+}
+.nav-link:hover{
+    color: rgb(189, 84, 84) !important;
+}
+
+
+
+/* banner */
+ul li{
+list-style: none;
+padding: 0;
+
+}
+ul {
+    padding-left: 0px;
+
+    margin-bottom: 00px;
+}
+#readmore-btn{
+    background-color: Transparent;
+   border: 1px solid white;
+   border-radius: 34px;
+   padding: 20px 0px !important;
+   width: 200px;
+   color: white;
+   
+}
+#readmore-btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 34px;
+    
+}
+.carousel-caption h1{
+    font-size: 3.5rem;
+}
+.carousel-caption p{
+    font-size: 1.3rem;
+}
+
+#icon-item img{
+    min-height: auto;
+    max-width:100%;
+}
+
+/* About Section  */
+#about-section-cover{
+    background-image: url('../images/about-bg.jpg') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 90px;
+}
+#aboutsection{
+    border: 2px solid purple;
+    border-radius: 30px;
+}
+#about-para{
+    /* background-color: purple; */
+    font-size: 17px;
+    line-height: 32px;
+    color: #141012;
+    font-weight: 200px;
+    font-family: 'poppins', sans-serif;
+}
+.readmore-btn{
+    background-color: Transparent;
+   border: none;
+   border-radius: 34px;
+   padding: 20px 0px !important;
+   width: 200px;
+   background-color: #81256c;
+   color: white;
+   margin: 0%;
+   margin-top: 2rem;
+
+}
+
+.img-section img{
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+}
+
+
+
+/* Library_section */
+.labrary-photo{
+  background-color:#81256c;
+}
+.labrary-photo img{
+ display: block;
+ margin: auto;
+ width: 50%;
+}
+
+.readmore-btn2{
+    background-color: Transparent;
+   border: none;
+   border-radius: 34px;
+   padding: 20px 0px !important;
+   width: 200px;
+   background-color: #81256c;
+   color: white;
+   margin: 0%;
+   margin-top: 2rem;
+
+}
+.readmore-btn2:hover{
+    background-color: Transparent;
+   border: none;
+   border-radius: 34px;
+   padding: 20px 0px !important;
+   width: 200px;
+   background-color: #000000;
+   color: white;
+   margin: 0%;
+   margin-top: 2rem;
+
+}
+
+
+/* Our Books  */
+
+.primary-para3{
+width: 100%;
+display: block;
+
+    color: black;
+    font-family:Calibri,sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+}
+.books2{
+    width: 100%;
+}
+.books1{
+    width: 90%;
+}
+
+/* Contact Box  */
+.contact-box{
+    background-color: rgb(36, 36, 36);
+    height: 420px;
+    padding: 80px 0px !important;
+}
+#contact-title{
+    color: white !important;
+}
+.form-box input{
+/* background-color: rgb(160, 50, 160) !important; */
+height: 55px;
+border: none;
+border-radius: 0;
+font-size: 18px;
+padding: 25px;
+}
+
+.btn-send{
+    background-color: teal;
+    height: 55px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color:  #81256c;
+    color: white;
+    font-size: 20px;
+}
+.btn-send:hover{
+  background-color: white;
+  color: black;
+}
+
+/* footer  */
+footer{
+    background-image: url('../images/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-heading{
+  color: white;
+  line-height: 30px;
+  border-bottom: #fff solid 1px;
+  padding: 5px;
+  display: inline-block;
+}
+
+
+
+.newslatter{
+   height: 50px;
+  width: 100%;
+   border: none;
+   border-radius: 0;
+}
+.btn-news{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+     border: none;
+     color: white;
+     border-radius: 0;
+}
+
+form-control:focus{
+    box-shadow: none;
+}
+
+
+/* Media Query  */
